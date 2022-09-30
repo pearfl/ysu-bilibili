@@ -5,27 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7ddd0aa-ba18-4484-9e3e-ece22595b72e" name="Changes" comment="初始化项目和多模块">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ysu-bilibili-api/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ysu-bilibili-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ysu-bilibili-api/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ysu-bilibili-api/src/main/resources/application-online.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ysu-bilibili-api/src/main/resources/application-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ysu-bilibili-dao/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ysu-bilibili-dao/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ysu-bilibili-dao/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ysu-bilibili-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ysu-bilibili-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ysu-bilibili-service/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ysu-bilibili-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ysu-bilibili-api/src/main/java/com/ysu/YsuBilibiliApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysu-bilibili-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ysu-bilibili-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysu-bilibili-api/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysu-bilibili-api/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ysu-bilibili-api/src/main/resources/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysu-bilibili-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ysu-bilibili-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysu-bilibili-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ysu-bilibili-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +22,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,6 +55,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -75,6 +74,26 @@
       <recent name="E:\training_projects\ysu-bilibili\ysu-bilibili-service\src\main\resources" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="YsuBilibiliApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ysu-bilibili-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ysu.YsuBilibiliApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ysu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.YsuBilibiliApp" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -83,8 +102,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664537195368</updated>
-      <workItem from="1664537196838" duration="2376000" />
+      <workItem from="1664537196838" duration="4932000" />
     </task>
+    <task id="LOCAL-00001" summary="初始化项目和多模块">
+      <created>1664543360987</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664543360987</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

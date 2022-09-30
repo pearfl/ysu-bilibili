@@ -9,12 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ysu-bilibili-service</artifactId>
+    <artifactId>imooc-bilibili-api</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>ysu-bilibili-dao</artifactId>
+            <artifactId>ysu-bilibili-service</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 

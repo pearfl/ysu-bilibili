@@ -25,17 +25,4 @@
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>2.5.1</version>
-                <configuration>
-                    <mainClass>com.ysu.YsuBilibiliApp</mainClass>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-
 </project>
